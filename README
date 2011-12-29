@@ -1,0 +1,16 @@
+入门指南 | Getting Started
+
+在本教程中，您将学习如何完成以下操作：
+
+使用 Python 生成 App Engine 应用程序
+使用“TornadoWeb”网络应用程序框架
+在您的应用程序中使用数据存储区
+在您的应用程序中使用模板
+将应用程序上传到 App Engine
+
+在本教程结束前，您将实现一个可运行的应用程序 - 可让用户将消息发布到公共留言板的简单留言簿。
+
+http://gettingstarted.sinaapp.com/
+
+
+-- Ccdjh.Marx@gmail.com

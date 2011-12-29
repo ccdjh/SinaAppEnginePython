@@ -209,8 +209,8 @@ app = tornado.wsgi.WSGIApplication([
  
 application = sae.create_wsgi_app(app)
 
-####Guestbook.html 文件
-
+####Guestbook.html 文件####
+"""
 <html>
     <head>
         <title>GuestBook | Sina App Engine</title>
@@ -223,7 +223,7 @@ application = sae.create_wsgi_app(app)
          </form>
     </body>
 </html>
-
+"""
 #############################################################################
 #######
 ####### 5, 添加静态文件 static文件夹
