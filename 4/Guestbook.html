@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>GuestBook | Sina App Engine</title>
+<link href="/static/style.css" type="text/css" rel="stylesheet"></link>
+</head>
+<body>
+        <h3>{% for t in tpl['test'] %}<p> {{ t['info'] }} </p>{% end %}</h3>
+        <form action="/" method="post">
+        <div><textarea name="content" rows="3" cols="60"></textarea></div>
+        <div><input type="submit" value="Submit Guestbook"></div>
+        </form>
+        <a href="/"><img src="/static/logo.gif"></a>
+</body>
+</html>
